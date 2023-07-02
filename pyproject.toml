@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "reposterbot"
+version = "0.1.0"
+description = ""
+authors = ["John Doe"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiogram = "^2.25.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
